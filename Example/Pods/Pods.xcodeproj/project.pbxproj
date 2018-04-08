@@ -1,0 +1,992 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3882FBD219EE1F0BC70BD25319C8B6 /* UIView+XMGLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D0DCC7F16BFA8E181543751163267 /* UIView+XMGLayout.m */; };
+		252A2F03AB236D22FDB4AF6ECE5AFDD1 /* UIImage+XMGImage.h in Headers */ = {isa = PBXBuildFile; fileRef = EACE65008DCCB215238EFEC078442627 /* UIImage+XMGImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26917F74845388D0D0027A9054AD79E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C61F074DB9319561D425B546BC308AA /* Foundation.framework */; };
+		26BDEA7DF0605C0297E137288353FB55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C61F074DB9319561D425B546BC308AA /* Foundation.framework */; };
+		2877523512F52843D014CF2BA031916E /* Pods-SegmetBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B05B2AF3E9E694F309ED1AD6F018954 /* Pods-SegmetBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29929337A739675151A4AD394A8393A0 /* XMGSegmentConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F8D1B19D2CDCDC512D89747E7527FC /* XMGSegmentConfig.m */; };
+		2AA5F0070CB80A4B923CC62AE1266A70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C61F074DB9319561D425B546BC308AA /* Foundation.framework */; };
+		2CF8B5CF9F7D03A268463CCC99F79359 /* XMGMenueBarShowDetailCVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFF85977C543860FD189A605B8C0398 /* XMGMenueBarShowDetailCVC.m */; };
+		3FD2D45DB407F76786027855BE001C3E /* XMGMenueCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 52F44C11B092D262DE98B13F803D8799 /* XMGMenueCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A87AC0EFD3A9E51E947E39BA2F78DC1 /* XMGSegmentModelProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = F571AD9A18BAC26ABA9AA7AC0623851C /* XMGSegmentModelProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BE09E49C92E0302957A58930D981BAA /* XMGSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B82C87FE815917C6B5F028A1207739C9 /* XMGSegmentBar.m */; };
+		54DB18E6546B83BBB72C357F4AD0267E /* Pods-SegmetBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66AD685E40A0FA9A7AD2158E09463A50 /* Pods-SegmetBar_Example-dummy.m */; };
+		6078140330B48154DA5CEE48A90B0275 /* XMGMenueBarShowDetailCVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 25A423437AAC553B5573549A46D52831 /* XMGMenueBarShowDetailCVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6327626E0514EF8F35F7AB17776685B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C61F074DB9319561D425B546BC308AA /* Foundation.framework */; };
+		6812FBA89A18959BEBDFA089D90A95D5 /* XMGMenueCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = F34758BF3760B46AD60EBAA4F5150BB2 /* XMGMenueCell.xib */; };
+		6AF11C2A3BD33A8B3D8B47A9B5A9ECD4 /* HYNDEMO-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 494D19D6E9F486287ED6D42382AAB63F /* HYNDEMO-dummy.m */; };
+		6E194BB56DD8870F7FA033D66B418B86 /* CALayer+PauseAimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C0A9814F8CE4B3D34DB45CF84CA2A /* CALayer+PauseAimate.m */; };
+		73FB3C80CFCFEEAB3F8FB820FA3EB498 /* XMGSegmentRightLeftBtn.h in Headers */ = {isa = PBXBuildFile; fileRef = 94D2660CEE7CA1A0D6DA13CBAD8CE6D1 /* XMGSegmentRightLeftBtn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87781CC31B0887835F0DC9824F327190 /* Pods-SegmetBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD32E33EBB71C75770717E302663E33C /* Pods-SegmetBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FE26553B8C57A5A0CB63193A734D952 /* SegmetBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C07F7F0FD71715C98416A1F2BB92B712 /* SegmetBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A930E3DCFD35C4F6DA67CF02CB5EED1 /* HYNDEMO-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FA84B73B1BE653118BACC556F4E6A4E /* HYNDEMO-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2209CCD9003F16CCA942961C3CA5827 /* XMGSegmentConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 41F47E8B536E697E59F4081BA85CA34D /* XMGSegmentConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4D154982F74050B26C9AB26EAB5E686 /* SegmetBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1091EACEA637B39225C54C8B4882CF3 /* SegmetBar-dummy.m */; };
+		AA0F0ECE05EEA8B7E0B3DE29496F59BB /* HYNDEMO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2680D96ACF7FF816FC7B933E2F27602F /* HYNDEMO.framework */; };
+		AF552918799648631992FBFC4B86E9BE /* XMGMenueCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC97DD950EA4E3866F265B9793A4853 /* XMGMenueCell.m */; };
+		BADA5EE689C59C613F9B52F638535B69 /* UIImage+XMGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F7054BC8CDE777AE1287277DC51BC124 /* UIImage+XMGImage.m */; };
+		BDC652631ED33764AE29B9B0CFF93AB4 /* XMGSegmentRightLeftBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 0926DA5582421BFD314B4FCBB2F974E7 /* XMGSegmentRightLeftBtn.m */; };
+		C4FFD2EC3C1FF643DBDF4EC263E21371 /* NSString+SegmentModelProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BFB3E0A7C616B4776FF2B49838F22F8 /* NSString+SegmentModelProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C552A161C786677A0619FF5B12ABD8B4 /* UIView+XMGLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D3980FDC36ECB03D04E4680A0ACDCD7 /* UIView+XMGLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C69D0B3D800ED52B890A0509B3CA5594 /* CALayer+PauseAimate.h in Headers */ = {isa = PBXBuildFile; fileRef = 86BFB8A9C9FC9F67E59F9FC3685401B9 /* CALayer+PauseAimate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA247E70D79596D609DC3DFA0A63D279 /* XMGSegmentBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 18295E770CA3FFFC033927404AAFBE57 /* XMGSegmentBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF9C7719ABEEDEC563D672F38D9DCF2A /* NSString+SegmentModelProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = A33522705CB8AF3C0827121D3E6E8FF7 /* NSString+SegmentModelProtocol.m */; };
+		FCA1C376FDD8106319C3FBB979797FB6 /* Pods-SegmetBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7999855C6C64C821A00D20C22F194BD4 /* Pods-SegmetBar_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F3A245ED792235601F25BC40E5B7082 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C55E7C09BEC2B51734BFB79927155E3F;
+			remoteInfo = HYNDEMO;
+		};
+		22C22C869E788BC32BE828480C146C2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 908033BA7A052F2A0BB646969A8D959D;
+			remoteInfo = SegmetBar;
+		};
+		A500B73C5B678D41CF58E8B44C577B5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C55E7C09BEC2B51734BFB79927155E3F;
+			remoteInfo = HYNDEMO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		070A94A720904C6CA4D2023DA857EE84 /* SegmetBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SegmetBar.modulemap; sourceTree = "<group>"; };
+		083250104485518EE41AB2AB7FE56BB1 /* Pods-SegmetBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SegmetBar_Example.modulemap"; sourceTree = "<group>"; };
+		0926DA5582421BFD314B4FCBB2F974E7 /* XMGSegmentRightLeftBtn.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMGSegmentRightLeftBtn.m; path = SegmetBar/Classes/XMGSegmentRightLeftBtn.m; sourceTree = "<group>"; };
+		0FA84B73B1BE653118BACC556F4E6A4E /* HYNDEMO-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYNDEMO-umbrella.h"; sourceTree = "<group>"; };
+		17016B280FB81127A4CCDD8B332DFF6F /* Pods-SegmetBar_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SegmetBar_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		18295E770CA3FFFC033927404AAFBE57 /* XMGSegmentBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMGSegmentBar.h; path = SegmetBar/Classes/XMGSegmentBar.h; sourceTree = "<group>"; };
+		1C61F074DB9319561D425B546BC308AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		25A423437AAC553B5573549A46D52831 /* XMGMenueBarShowDetailCVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMGMenueBarShowDetailCVC.h; path = SegmetBar/Classes/XMGMenueBarShowDetailCVC.h; sourceTree = "<group>"; };
+		2680D96ACF7FF816FC7B933E2F27602F /* HYNDEMO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HYNDEMO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F784920E3D2DE70DDAF22E5479F0ECD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		345AE8CB55ED426B17BAE18E53912F7E /* Pods-SegmetBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SegmetBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		40FADCB53B88C7F50E4B5E2556AE13F7 /* HYNDEMO.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HYNDEMO.modulemap; sourceTree = "<group>"; };
+		41F47E8B536E697E59F4081BA85CA34D /* XMGSegmentConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMGSegmentConfig.h; path = SegmetBar/Classes/XMGSegmentConfig.h; sourceTree = "<group>"; };
+		442A4E3B55A763146C2B0FCCEFEE9A50 /* Pods-SegmetBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SegmetBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		45A63A038E67A8AA6F4983325219A1C0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		494D19D6E9F486287ED6D42382AAB63F /* HYNDEMO-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HYNDEMO-dummy.m"; sourceTree = "<group>"; };
+		52F44C11B092D262DE98B13F803D8799 /* XMGMenueCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMGMenueCell.h; path = SegmetBar/Classes/XMGMenueCell.h; sourceTree = "<group>"; };
+		5318C13C14B6A873EF1A55CC79AD3533 /* HYNDEMO-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYNDEMO-prefix.pch"; sourceTree = "<group>"; };
+		540EF3035D41074C95ADC3678EE82D87 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BFB3E0A7C616B4776FF2B49838F22F8 /* NSString+SegmentModelProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+SegmentModelProtocol.h"; path = "SegmetBar/Classes/NSString+SegmentModelProtocol.h"; sourceTree = "<group>"; };
+		5ECB966F35C64E7594DFE27CD68DF221 /* Pods-SegmetBar_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SegmetBar_Example-resources.sh"; sourceTree = "<group>"; };
+		66AD685E40A0FA9A7AD2158E09463A50 /* Pods-SegmetBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SegmetBar_Example-dummy.m"; sourceTree = "<group>"; };
+		70E1A56A84D919ABF82405DC7D2D29F5 /* Pods-SegmetBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SegmetBar_Tests.modulemap"; sourceTree = "<group>"; };
+		7363927046FB4D4150265E85B93C2ABB /* Pods-SegmetBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SegmetBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		74698DCDC96CB4BB61BDC78999749E0D /* HYNDEMO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HYNDEMO.framework; path = HYNDEMO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7575CBA08A6A3FC012B803E270FFDCF4 /* SegmetBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SegmetBar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7999855C6C64C821A00D20C22F194BD4 /* Pods-SegmetBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SegmetBar_Tests-dummy.m"; sourceTree = "<group>"; };
+		7A958016B7352B78A5AB18F83AA99CF4 /* Pods-SegmetBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SegmetBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7D3980FDC36ECB03D04E4680A0ACDCD7 /* UIView+XMGLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+XMGLayout.h"; path = "HYNDEMO/Classes/Category/UIView+XMGLayout.h"; sourceTree = "<group>"; };
+		86BFB8A9C9FC9F67E59F9FC3685401B9 /* CALayer+PauseAimate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+PauseAimate.h"; path = "HYNDEMO/Classes/Category/CALayer+PauseAimate.h"; sourceTree = "<group>"; };
+		892B25374D019FF9548C1A8D9B58B4AC /* Pods_SegmetBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SegmetBar_Tests.framework; path = "Pods-SegmetBar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B05B2AF3E9E694F309ED1AD6F018954 /* Pods-SegmetBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SegmetBar_Example-umbrella.h"; sourceTree = "<group>"; };
+		8E4258503F18D24FF31C645F9E62EF65 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94D2660CEE7CA1A0D6DA13CBAD8CE6D1 /* XMGSegmentRightLeftBtn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMGSegmentRightLeftBtn.h; path = SegmetBar/Classes/XMGSegmentRightLeftBtn.h; sourceTree = "<group>"; };
+		97DD94EB558CC6AFC6994B62C759F42E /* Pods-SegmetBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SegmetBar_Example-frameworks.sh"; sourceTree = "<group>"; };
+		98F8D1B19D2CDCDC512D89747E7527FC /* XMGSegmentConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMGSegmentConfig.m; path = SegmetBar/Classes/XMGSegmentConfig.m; sourceTree = "<group>"; };
+		9A923EB386AA5BA155CF6FC634263690 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B5D0DCC7F16BFA8E181543751163267 /* UIView+XMGLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+XMGLayout.m"; path = "HYNDEMO/Classes/Category/UIView+XMGLayout.m"; sourceTree = "<group>"; };
+		9C1D49BC163C3E85C80BC71AE0A7244E /* Pods-SegmetBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SegmetBar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9C8C0A9814F8CE4B3D34DB45CF84CA2A /* CALayer+PauseAimate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+PauseAimate.m"; path = "HYNDEMO/Classes/Category/CALayer+PauseAimate.m"; sourceTree = "<group>"; };
+		A33522705CB8AF3C0827121D3E6E8FF7 /* NSString+SegmentModelProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+SegmentModelProtocol.m"; path = "SegmetBar/Classes/NSString+SegmentModelProtocol.m"; sourceTree = "<group>"; };
+		A6D151E03352B0FAE53082A9E42F370E /* SegmetBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SegmetBar.xcconfig; sourceTree = "<group>"; };
+		B4218BA189F919FBA86DBA78C0DFB708 /* Pods-SegmetBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SegmetBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B82C87FE815917C6B5F028A1207739C9 /* XMGSegmentBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMGSegmentBar.m; path = SegmetBar/Classes/XMGSegmentBar.m; sourceTree = "<group>"; };
+		BDC97DD950EA4E3866F265B9793A4853 /* XMGMenueCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMGMenueCell.m; path = SegmetBar/Classes/XMGMenueCell.m; sourceTree = "<group>"; };
+		C07F7F0FD71715C98416A1F2BB92B712 /* SegmetBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SegmetBar-umbrella.h"; sourceTree = "<group>"; };
+		CDC22E0F537A5AE46742099E7D0EAF1F /* Pods-SegmetBar_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SegmetBar_Tests-resources.sh"; sourceTree = "<group>"; };
+		D1CF148C14943FFB8C8718C6D91CA5B2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCFF85977C543860FD189A605B8C0398 /* XMGMenueBarShowDetailCVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMGMenueBarShowDetailCVC.m; path = SegmetBar/Classes/XMGMenueBarShowDetailCVC.m; sourceTree = "<group>"; };
+		DD32E33EBB71C75770717E302663E33C /* Pods-SegmetBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SegmetBar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E0B3457BC2FBF1D3B2A35D651704CD24 /* Pods_SegmetBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SegmetBar_Example.framework; path = "Pods-SegmetBar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1091EACEA637B39225C54C8B4882CF3 /* SegmetBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SegmetBar-dummy.m"; sourceTree = "<group>"; };
+		E1A55F222D5DEADB9E4D1EAA5FDB6045 /* HYNDEMO.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HYNDEMO.xcconfig; sourceTree = "<group>"; };
+		E72010855CF6260E177055D6763D8CAE /* Pods-SegmetBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SegmetBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EACE65008DCCB215238EFEC078442627 /* UIImage+XMGImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+XMGImage.h"; path = "HYNDEMO/Classes/Category/UIImage+XMGImage.h"; sourceTree = "<group>"; };
+		EC2FAD463DC7EFCC1D6D690A58B32DEF /* SegmetBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SegmetBar.framework; path = SegmetBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F34758BF3760B46AD60EBAA4F5150BB2 /* XMGMenueCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = XMGMenueCell.xib; path = SegmetBar/Classes/XMGMenueCell.xib; sourceTree = "<group>"; };
+		F571AD9A18BAC26ABA9AA7AC0623851C /* XMGSegmentModelProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMGSegmentModelProtocol.h; path = SegmetBar/Classes/XMGSegmentModelProtocol.h; sourceTree = "<group>"; };
+		F7054BC8CDE777AE1287277DC51BC124 /* UIImage+XMGImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+XMGImage.m"; path = "HYNDEMO/Classes/Category/UIImage+XMGImage.m"; sourceTree = "<group>"; };
+		FA23A7937B86D30E580C5F61C851FB44 /* Pods-SegmetBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SegmetBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE649A39943FD326FA21C577268E7598 /* SegmetBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SegmetBar-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		151F75C4A9A0ABD111F088810837C0C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26917F74845388D0D0027A9054AD79E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F6428AE825B8AF586575BEA650E33D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6327626E0514EF8F35F7AB17776685B1 /* Foundation.framework in Frameworks */,
+				AA0F0ECE05EEA8B7E0B3DE29496F59BB /* HYNDEMO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F7E1607FA838428522AF3289142BE71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AA5F0070CB80A4B923CC62AE1266A70 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52C41A611D57CAF9F54D2187916EDD7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26BDEA7DF0605C0297E137288353FB55 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		100078DB1469168D41D0601AB2C33DE7 /* Pods-SegmetBar_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				540EF3035D41074C95ADC3678EE82D87 /* Info.plist */,
+				70E1A56A84D919ABF82405DC7D2D29F5 /* Pods-SegmetBar_Tests.modulemap */,
+				B4218BA189F919FBA86DBA78C0DFB708 /* Pods-SegmetBar_Tests-acknowledgements.markdown */,
+				442A4E3B55A763146C2B0FCCEFEE9A50 /* Pods-SegmetBar_Tests-acknowledgements.plist */,
+				7999855C6C64C821A00D20C22F194BD4 /* Pods-SegmetBar_Tests-dummy.m */,
+				17016B280FB81127A4CCDD8B332DFF6F /* Pods-SegmetBar_Tests-frameworks.sh */,
+				CDC22E0F537A5AE46742099E7D0EAF1F /* Pods-SegmetBar_Tests-resources.sh */,
+				DD32E33EBB71C75770717E302663E33C /* Pods-SegmetBar_Tests-umbrella.h */,
+				FA23A7937B86D30E580C5F61C851FB44 /* Pods-SegmetBar_Tests.debug.xcconfig */,
+				E72010855CF6260E177055D6763D8CAE /* Pods-SegmetBar_Tests.release.xcconfig */,
+			);
+			name = "Pods-SegmetBar_Tests";
+			path = "Target Support Files/Pods-SegmetBar_Tests";
+			sourceTree = "<group>";
+		};
+		180AB246F0E8BB6A87908363C281F37E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46284C530F70AC3E6D6B59C46F45EC38 /* HYNDEMO */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3256AE153157599E9F846F32F822D951 /* Pods-SegmetBar_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2F784920E3D2DE70DDAF22E5479F0ECD /* Info.plist */,
+				083250104485518EE41AB2AB7FE56BB1 /* Pods-SegmetBar_Example.modulemap */,
+				7A958016B7352B78A5AB18F83AA99CF4 /* Pods-SegmetBar_Example-acknowledgements.markdown */,
+				7363927046FB4D4150265E85B93C2ABB /* Pods-SegmetBar_Example-acknowledgements.plist */,
+				66AD685E40A0FA9A7AD2158E09463A50 /* Pods-SegmetBar_Example-dummy.m */,
+				97DD94EB558CC6AFC6994B62C759F42E /* Pods-SegmetBar_Example-frameworks.sh */,
+				5ECB966F35C64E7594DFE27CD68DF221 /* Pods-SegmetBar_Example-resources.sh */,
+				8B05B2AF3E9E694F309ED1AD6F018954 /* Pods-SegmetBar_Example-umbrella.h */,
+				345AE8CB55ED426B17BAE18E53912F7E /* Pods-SegmetBar_Example.debug.xcconfig */,
+				9C1D49BC163C3E85C80BC71AE0A7244E /* Pods-SegmetBar_Example.release.xcconfig */,
+			);
+			name = "Pods-SegmetBar_Example";
+			path = "Target Support Files/Pods-SegmetBar_Example";
+			sourceTree = "<group>";
+		};
+		351CCE27A70DF9A8A98B03327CC01539 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				40FADCB53B88C7F50E4B5E2556AE13F7 /* HYNDEMO.modulemap */,
+				E1A55F222D5DEADB9E4D1EAA5FDB6045 /* HYNDEMO.xcconfig */,
+				494D19D6E9F486287ED6D42382AAB63F /* HYNDEMO-dummy.m */,
+				5318C13C14B6A873EF1A55CC79AD3533 /* HYNDEMO-prefix.pch */,
+				0FA84B73B1BE653118BACC556F4E6A4E /* HYNDEMO-umbrella.h */,
+				D1CF148C14943FFB8C8718C6D91CA5B2 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HYNDEMO";
+			sourceTree = "<group>";
+		};
+		46284C530F70AC3E6D6B59C46F45EC38 /* HYNDEMO */ = {
+			isa = PBXGroup;
+			children = (
+				533BBE520AB095680E5D065D9D499AA1 /* Category */,
+				351CCE27A70DF9A8A98B03327CC01539 /* Support Files */,
+			);
+			name = HYNDEMO;
+			path = HYNDEMO;
+			sourceTree = "<group>";
+		};
+		4B88AF10C5C5C90126459420BE69F61C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74698DCDC96CB4BB61BDC78999749E0D /* HYNDEMO.framework */,
+				E0B3457BC2FBF1D3B2A35D651704CD24 /* Pods_SegmetBar_Example.framework */,
+				892B25374D019FF9548C1A8D9B58B4AC /* Pods_SegmetBar_Tests.framework */,
+				EC2FAD463DC7EFCC1D6D690A58B32DEF /* SegmetBar.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		533BBE520AB095680E5D065D9D499AA1 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				86BFB8A9C9FC9F67E59F9FC3685401B9 /* CALayer+PauseAimate.h */,
+				9C8C0A9814F8CE4B3D34DB45CF84CA2A /* CALayer+PauseAimate.m */,
+				EACE65008DCCB215238EFEC078442627 /* UIImage+XMGImage.h */,
+				F7054BC8CDE777AE1287277DC51BC124 /* UIImage+XMGImage.m */,
+				7D3980FDC36ECB03D04E4680A0ACDCD7 /* UIView+XMGLayout.h */,
+				9B5D0DCC7F16BFA8E181543751163267 /* UIView+XMGLayout.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		691C4129B6A80FC3B61541863EF25AFA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A98BBA2BD16C78C86B871F421A6494E7 /* SegmetBar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6B6D47DD878650314600D6DBE1140646 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				45A63A038E67A8AA6F4983325219A1C0 /* LICENSE */,
+				8E4258503F18D24FF31C645F9E62EF65 /* README.md */,
+				7575CBA08A6A3FC012B803E270FFDCF4 /* SegmetBar.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				691C4129B6A80FC3B61541863EF25AFA /* Development Pods */,
+				952351DFF7DA79ACC0A39281E2AA190F /* Frameworks */,
+				180AB246F0E8BB6A87908363C281F37E /* Pods */,
+				4B88AF10C5C5C90126459420BE69F61C /* Products */,
+				A08EFB92D93FD4EF7466DABE0DB6C41F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		952351DFF7DA79ACC0A39281E2AA190F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2680D96ACF7FF816FC7B933E2F27602F /* HYNDEMO.framework */,
+				A926489AB450E303B21CCEFD2C26363D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A08EFB92D93FD4EF7466DABE0DB6C41F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3256AE153157599E9F846F32F822D951 /* Pods-SegmetBar_Example */,
+				100078DB1469168D41D0601AB2C33DE7 /* Pods-SegmetBar_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A926489AB450E303B21CCEFD2C26363D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1C61F074DB9319561D425B546BC308AA /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A98BBA2BD16C78C86B871F421A6494E7 /* SegmetBar */ = {
+			isa = PBXGroup;
+			children = (
+				5BFB3E0A7C616B4776FF2B49838F22F8 /* NSString+SegmentModelProtocol.h */,
+				A33522705CB8AF3C0827121D3E6E8FF7 /* NSString+SegmentModelProtocol.m */,
+				25A423437AAC553B5573549A46D52831 /* XMGMenueBarShowDetailCVC.h */,
+				DCFF85977C543860FD189A605B8C0398 /* XMGMenueBarShowDetailCVC.m */,
+				52F44C11B092D262DE98B13F803D8799 /* XMGMenueCell.h */,
+				BDC97DD950EA4E3866F265B9793A4853 /* XMGMenueCell.m */,
+				F34758BF3760B46AD60EBAA4F5150BB2 /* XMGMenueCell.xib */,
+				18295E770CA3FFFC033927404AAFBE57 /* XMGSegmentBar.h */,
+				B82C87FE815917C6B5F028A1207739C9 /* XMGSegmentBar.m */,
+				41F47E8B536E697E59F4081BA85CA34D /* XMGSegmentConfig.h */,
+				98F8D1B19D2CDCDC512D89747E7527FC /* XMGSegmentConfig.m */,
+				F571AD9A18BAC26ABA9AA7AC0623851C /* XMGSegmentModelProtocol.h */,
+				94D2660CEE7CA1A0D6DA13CBAD8CE6D1 /* XMGSegmentRightLeftBtn.h */,
+				0926DA5582421BFD314B4FCBB2F974E7 /* XMGSegmentRightLeftBtn.m */,
+				6B6D47DD878650314600D6DBE1140646 /* Pod */,
+				BB9D66EBC071927400F37FF33F4E6D95 /* Support Files */,
+			);
+			name = SegmetBar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BB9D66EBC071927400F37FF33F4E6D95 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A923EB386AA5BA155CF6FC634263690 /* Info.plist */,
+				070A94A720904C6CA4D2023DA857EE84 /* SegmetBar.modulemap */,
+				A6D151E03352B0FAE53082A9E42F370E /* SegmetBar.xcconfig */,
+				E1091EACEA637B39225C54C8B4882CF3 /* SegmetBar-dummy.m */,
+				FE649A39943FD326FA21C577268E7598 /* SegmetBar-prefix.pch */,
+				C07F7F0FD71715C98416A1F2BB92B712 /* SegmetBar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SegmetBar";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1FB979DE1F87A75F6F803A193C398511 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4FFD2EC3C1FF643DBDF4EC263E21371 /* NSString+SegmentModelProtocol.h in Headers */,
+				8FE26553B8C57A5A0CB63193A734D952 /* SegmetBar-umbrella.h in Headers */,
+				6078140330B48154DA5CEE48A90B0275 /* XMGMenueBarShowDetailCVC.h in Headers */,
+				3FD2D45DB407F76786027855BE001C3E /* XMGMenueCell.h in Headers */,
+				CA247E70D79596D609DC3DFA0A63D279 /* XMGSegmentBar.h in Headers */,
+				A2209CCD9003F16CCA942961C3CA5827 /* XMGSegmentConfig.h in Headers */,
+				4A87AC0EFD3A9E51E947E39BA2F78DC1 /* XMGSegmentModelProtocol.h in Headers */,
+				73FB3C80CFCFEEAB3F8FB820FA3EB498 /* XMGSegmentRightLeftBtn.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A63902C2058AEA823CF8300CC2CA49D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C69D0B3D800ED52B890A0509B3CA5594 /* CALayer+PauseAimate.h in Headers */,
+				9A930E3DCFD35C4F6DA67CF02CB5EED1 /* HYNDEMO-umbrella.h in Headers */,
+				252A2F03AB236D22FDB4AF6ECE5AFDD1 /* UIImage+XMGImage.h in Headers */,
+				C552A161C786677A0619FF5B12ABD8B4 /* UIView+XMGLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C09F333B34EC032CFA9A45FC3180E0AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2877523512F52843D014CF2BA031916E /* Pods-SegmetBar_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D87B1BE02D462EBC8B23B9013F69BD24 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87781CC31B0887835F0DC9824F327190 /* Pods-SegmetBar_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2509BC12B0C342C737E77FC985A65CF3 /* Pods-SegmetBar_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F17C462D0E2DF23EA77B2DEFC7964BF /* Build configuration list for PBXNativeTarget "Pods-SegmetBar_Tests" */;
+			buildPhases = (
+				0A4BD5AC8E52E095FA835512CA29F350 /* Sources */,
+				52C41A611D57CAF9F54D2187916EDD7F /* Frameworks */,
+				D87B1BE02D462EBC8B23B9013F69BD24 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SegmetBar_Tests";
+			productName = "Pods-SegmetBar_Tests";
+			productReference = 892B25374D019FF9548C1A8D9B58B4AC /* Pods_SegmetBar_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		908033BA7A052F2A0BB646969A8D959D /* SegmetBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 714ACD66BE8461A0F6C5947649FEE10A /* Build configuration list for PBXNativeTarget "SegmetBar" */;
+			buildPhases = (
+				393CFF072EB5CDB0E313BBA034B5D069 /* Sources */,
+				46F6428AE825B8AF586575BEA650E33D /* Frameworks */,
+				1FB979DE1F87A75F6F803A193C398511 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74A8195CBB1A5DE125C8552880643AE9 /* PBXTargetDependency */,
+			);
+			name = SegmetBar;
+			productName = SegmetBar;
+			productReference = EC2FAD463DC7EFCC1D6D690A58B32DEF /* SegmetBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C55E7C09BEC2B51734BFB79927155E3F /* HYNDEMO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E3B1D6AC5DE0841FC6746CCA554991A /* Build configuration list for PBXNativeTarget "HYNDEMO" */;
+			buildPhases = (
+				EB7A1360976B998660EBC4D168F370D6 /* Sources */,
+				4F7E1607FA838428522AF3289142BE71 /* Frameworks */,
+				A63902C2058AEA823CF8300CC2CA49D6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYNDEMO;
+			productName = HYNDEMO;
+			productReference = 74698DCDC96CB4BB61BDC78999749E0D /* HYNDEMO.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EE092989E698EEB072B77EDEB4BD32A0 /* Pods-SegmetBar_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 349DC4F2B62FFEDABE36F76D5C851702 /* Build configuration list for PBXNativeTarget "Pods-SegmetBar_Example" */;
+			buildPhases = (
+				2DE864E43927AA345E9E06B7F129C522 /* Sources */,
+				151F75C4A9A0ABD111F088810837C0C7 /* Frameworks */,
+				C09F333B34EC032CFA9A45FC3180E0AA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F441E2E7DA051A02679E01CF01C0EC58 /* PBXTargetDependency */,
+				DADA42B2481AD03FC2598B1B9984000E /* PBXTargetDependency */,
+			);
+			name = "Pods-SegmetBar_Example";
+			productName = "Pods-SegmetBar_Example";
+			productReference = E0B3457BC2FBF1D3B2A35D651704CD24 /* Pods_SegmetBar_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4B88AF10C5C5C90126459420BE69F61C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C55E7C09BEC2B51734BFB79927155E3F /* HYNDEMO */,
+				EE092989E698EEB072B77EDEB4BD32A0 /* Pods-SegmetBar_Example */,
+				2509BC12B0C342C737E77FC985A65CF3 /* Pods-SegmetBar_Tests */,
+				908033BA7A052F2A0BB646969A8D959D /* SegmetBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A4BD5AC8E52E095FA835512CA29F350 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA1C376FDD8106319C3FBB979797FB6 /* Pods-SegmetBar_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DE864E43927AA345E9E06B7F129C522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54DB18E6546B83BBB72C357F4AD0267E /* Pods-SegmetBar_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		393CFF072EB5CDB0E313BBA034B5D069 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9C7719ABEEDEC563D672F38D9DCF2A /* NSString+SegmentModelProtocol.m in Sources */,
+				A4D154982F74050B26C9AB26EAB5E686 /* SegmetBar-dummy.m in Sources */,
+				2CF8B5CF9F7D03A268463CCC99F79359 /* XMGMenueBarShowDetailCVC.m in Sources */,
+				AF552918799648631992FBFC4B86E9BE /* XMGMenueCell.m in Sources */,
+				6812FBA89A18959BEBDFA089D90A95D5 /* XMGMenueCell.xib in Sources */,
+				4BE09E49C92E0302957A58930D981BAA /* XMGSegmentBar.m in Sources */,
+				29929337A739675151A4AD394A8393A0 /* XMGSegmentConfig.m in Sources */,
+				BDC652631ED33764AE29B9B0CFF93AB4 /* XMGSegmentRightLeftBtn.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB7A1360976B998660EBC4D168F370D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E194BB56DD8870F7FA033D66B418B86 /* CALayer+PauseAimate.m in Sources */,
+				6AF11C2A3BD33A8B3D8B47A9B5A9ECD4 /* HYNDEMO-dummy.m in Sources */,
+				BADA5EE689C59C613F9B52F638535B69 /* UIImage+XMGImage.m in Sources */,
+				1D3882FBD219EE1F0BC70BD25319C8B6 /* UIView+XMGLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74A8195CBB1A5DE125C8552880643AE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HYNDEMO;
+			target = C55E7C09BEC2B51734BFB79927155E3F /* HYNDEMO */;
+			targetProxy = 1F3A245ED792235601F25BC40E5B7082 /* PBXContainerItemProxy */;
+		};
+		DADA42B2481AD03FC2598B1B9984000E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SegmetBar;
+			target = 908033BA7A052F2A0BB646969A8D959D /* SegmetBar */;
+			targetProxy = 22C22C869E788BC32BE828480C146C2B /* PBXContainerItemProxy */;
+		};
+		F441E2E7DA051A02679E01CF01C0EC58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HYNDEMO;
+			target = C55E7C09BEC2B51734BFB79927155E3F /* HYNDEMO */;
+			targetProxy = A500B73C5B678D41CF58E8B44C577B5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BEA4C1FD2E9759F9BA01A21E32B6DC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1A55F222D5DEADB9E4D1EAA5FDB6045 /* HYNDEMO.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HYNDEMO/HYNDEMO-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HYNDEMO/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HYNDEMO/HYNDEMO.modulemap";
+				PRODUCT_NAME = HYNDEMO;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		26059D0DFE55CD4CDC0B73F82EC54F61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C1D49BC163C3E85C80BC71AE0A7244E /* Pods-SegmetBar_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SegmetBar_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SegmetBar_Example/Pods-SegmetBar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SegmetBar_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		43A958E83E1DA5CE3D8D8C2CAB2C597A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6D151E03352B0FAE53082A9E42F370E /* SegmetBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SegmetBar/SegmetBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SegmetBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SegmetBar/SegmetBar.modulemap";
+				PRODUCT_NAME = SegmetBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5377C960FBC41CE83C42AC2D46674695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 345AE8CB55ED426B17BAE18E53912F7E /* Pods-SegmetBar_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SegmetBar_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SegmetBar_Example/Pods-SegmetBar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SegmetBar_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		625C14EC8059B23236A316277476D33A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1A55F222D5DEADB9E4D1EAA5FDB6045 /* HYNDEMO.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HYNDEMO/HYNDEMO-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HYNDEMO/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HYNDEMO/HYNDEMO.modulemap";
+				PRODUCT_NAME = HYNDEMO;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BBB2DD628BDB949215AD7F770B581237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA23A7937B86D30E580C5F61C851FB44 /* Pods-SegmetBar_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SegmetBar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SegmetBar_Tests/Pods-SegmetBar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SegmetBar_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F0AFB20603C744CC7D5DB24C7F602ECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6D151E03352B0FAE53082A9E42F370E /* SegmetBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SegmetBar/SegmetBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SegmetBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SegmetBar/SegmetBar.modulemap";
+				PRODUCT_NAME = SegmetBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F9C3AE28F0C04FCB80E3656D40F4D8D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E72010855CF6260E177055D6763D8CAE /* Pods-SegmetBar_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SegmetBar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SegmetBar_Tests/Pods-SegmetBar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SegmetBar_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		349DC4F2B62FFEDABE36F76D5C851702 /* Build configuration list for PBXNativeTarget "Pods-SegmetBar_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5377C960FBC41CE83C42AC2D46674695 /* Debug */,
+				26059D0DFE55CD4CDC0B73F82EC54F61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F17C462D0E2DF23EA77B2DEFC7964BF /* Build configuration list for PBXNativeTarget "Pods-SegmetBar_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBB2DD628BDB949215AD7F770B581237 /* Debug */,
+				F9C3AE28F0C04FCB80E3656D40F4D8D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E3B1D6AC5DE0841FC6746CCA554991A /* Build configuration list for PBXNativeTarget "HYNDEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BEA4C1FD2E9759F9BA01A21E32B6DC6 /* Debug */,
+				625C14EC8059B23236A316277476D33A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		714ACD66BE8461A0F6C5947649FEE10A /* Build configuration list for PBXNativeTarget "SegmetBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43A958E83E1DA5CE3D8D8C2CAB2C597A /* Debug */,
+				F0AFB20603C744CC7D5DB24C7F602ECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

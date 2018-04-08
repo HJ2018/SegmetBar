@@ -385,10 +385,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SegmetBar_Example/Pods-SegmetBar_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/HYNDEMO/HYNDEMO.framework",
 				"${BUILT_PRODUCTS_DIR}/SegmetBar/SegmetBar.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HYNDEMO.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SegmetBar.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
