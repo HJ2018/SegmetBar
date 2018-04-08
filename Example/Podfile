@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SegmetBar_Example' do
+  pod 'SegmetBar', :path => '../'
+
+  target 'SegmetBar_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
