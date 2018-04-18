@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1BA572AF33C20AA69726706D /* SegmetBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SegmetBar.podspec; path = ../SegmetBar.podspec; sourceTree = "<group>"; };
+		1BA572AF33C20AA69726706D /* SegmetBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SegmetBar.podspec; path = ../SegmetBar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3B527011A143E4FFC8CB1C75 /* Pods_SegmetBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SegmetBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43EC3F913233BD3FCD81C217 /* Pods-SegmetBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SegmetBar_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SegmetBar_Tests/Pods-SegmetBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		51F9BCA27F31026CA7B1BAB1 /* Pods_SegmetBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SegmetBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,10 +63,10 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDA835DBE997FDA64CC24E87 /* Pods-SegmetBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SegmetBar_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SegmetBar_Tests/Pods-SegmetBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D0E53421D1C142AFD06861B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D0E53421D1C142AFD06861B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D31F3181C8B2A64B4ED42FBD /* Pods-SegmetBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SegmetBar_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SegmetBar_Example/Pods-SegmetBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E5EE5A7C77B06FB8E8DB1658 /* Pods-SegmetBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SegmetBar_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SegmetBar_Example/Pods-SegmetBar_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F92FDD0AFFB536116494818B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F92FDD0AFFB536116494818B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

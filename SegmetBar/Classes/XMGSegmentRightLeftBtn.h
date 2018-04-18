@@ -10,4 +10,6 @@
 
 @interface XMGSegmentRightLeftBtn : UIButton
 
+
+
 @end

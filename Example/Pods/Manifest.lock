@@ -1,6 +1,6 @@
 PODS:
   - HYNDEMO/Category (1.2.8)
-  - SegmetBar (0.1.0):
+  - SegmetBar (0.3.0):
     - HYNDEMO/Category
 
 DEPENDENCIES:
@@ -12,7 +12,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   HYNDEMO: 34311a8d6e5b8bd9ecbdd4ddad73f5ea1f9ade20
-  SegmetBar: c34ba18b5fef3a4704873bba814dbc09d15b55b0
+  SegmetBar: 3bef4c2272ec95c6e8f37b6cc482b17a391cc1c1
 
 PODFILE CHECKSUM: ddee6e786fcc49db0ca50f4b85478a9762b15dce
 

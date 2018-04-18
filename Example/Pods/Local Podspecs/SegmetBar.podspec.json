@@ -1,8 +1,8 @@
 {
   "name": "SegmetBar",
-  "version": "0.1.0",
-  "summary": "A short description of SegmetBar.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.3.0",
+  "summary": "SegmetBar",
+  "description": "SegmetBar 这个是一个滑动的主页控件",
   "homepage": "https://github.com/HJ2018/SegmetBar",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/HJ2018/SegmetBar.git",
-    "tag": "0.1.0"
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "8.0"
