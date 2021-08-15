@@ -22,7 +22,7 @@ pod 'SegmetBar'
 
 ## Author
 
-HJ2018, 597079127@qq.ccom
+HJ2018, v_v668@163.com
 
 ## License
 
